@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomeController {
 	@RequestMapping(method=RequestMethod.GET,value ="/")
 	public ModelAndView inicio() {
-		ModelAndView mv = new ModelAndView("produto/prod");
+		ModelAndView mv = new ModelAndView("pessoa/pessoa");
 		return mv;
 		
 	}
